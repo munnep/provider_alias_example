@@ -8,6 +8,8 @@ The example shows the following where we want to create 2 VPC on different AWS r
 - This will use a module called `module1` and we give the alias provider with this module
 - The `module1` will then call to `module2` and the resources to be created in the correct regions specified by the providers 
 
+This repository is based on the official documentation for terraform providers found [here](https://developer.hashicorp.com/terraform/language/modules/develop/providers)
+
 ## AWS
 We will be using AWS. Make sure you have the following
 - AWS account  
